@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "this script will be used to check system analysis"
 df -h
-du -h 
+free -g 
 lscpu
 free -m
 top
